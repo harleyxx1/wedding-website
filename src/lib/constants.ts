@@ -265,3 +265,10 @@ export const WEDDING_DATA = {
 };
 
 export const RSVP_DEADLINE = new Date('2027-04-01');
+
+export const FOOTER_DATA = {
+  coupleNames: 'Angelica & Harley',
+  weddingDate: 'May 1, 2027',
+  location: 'Sta. Maria, Bulacan, Philippines',
+  hashtag: '#HARLICASaPangHabangBuhay',
+};

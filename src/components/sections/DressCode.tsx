@@ -143,14 +143,14 @@ export default function DressCode() {
                 <p className="text-text-secondary mb-6">
                   Feel free to incorporate these colors into your outfit
                 </p>
-                <div className="flex justify-center gap-4">
+                <div className="flex flex-wrap justify-center gap-3 md:gap-4">
                   {dressCode.colorPalette.map((color, index) => (
                     <div key={index} className="text-center">
                       <div
-                        className="w-16 h-16 rounded-full shadow-md mx-auto mb-2"
+                        className="w-12 h-12 md:w-16 md:h-16 rounded-full shadow-md mx-auto mb-2"
                         style={{ backgroundColor: color }}
                       />
-                      <p className="text-xs text-text-secondary font-mono">
+                      <p className="text-xs text-text-secondary font-mono break-all">
                         {color}
                       </p>
                     </div>
