@@ -10,18 +10,18 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#8B7355',
-          light: '#A89080',
-          dark: '#6B5645',
+          DEFAULT: '#9B7EBD',
+          light: '#D4B5E8',
+          dark: '#7B5FA3',
         },
         accent: {
           DEFAULT: '#D4AF37',
           light: '#E8D4A0',
         },
-        purple: {
-          DEFAULT: '#9B7EBD',
-          light: '#D4B5E8',
-          dark: '#7B5FA3',
+        brown: {
+          DEFAULT: '#8B7355',
+          light: '#A89080',
+          dark: '#6B5645',
         },
         background: '#FDFBF7',
         text: {

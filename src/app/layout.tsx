@@ -22,34 +22,34 @@ const greatVibes = Great_Vibes({
 });
 
 export const metadata: Metadata = {
-  title: "Jane & John's Wedding | June 15, 2027",
+  title: "Angelica & Harley's Wedding | May 1, 2027",
   description:
-    "Join us as we celebrate our love and commitment on June 15, 2027 in Tagaytay, Philippines. Find all the details about our special day.",
+    "Join us as we celebrate our love and commitment on May 1, 2027 in Sta. Maria, Bulacan, Philippines. Find all the details about our special day.",
   keywords: [
     "wedding",
-    "Jane and John",
+    "Angelica and Harley",
     "wedding invitation",
-    "Tagaytay wedding",
+    "Sta. Maria Bulacan wedding",
   ],
-  authors: [{ name: "Jane & John" }],
+  authors: [{ name: "Angelica & Harley" }],
   openGraph: {
-    title: "Jane & John's Wedding",
-    description: "Join us for our wedding celebration on June 15, 2027",
+    title: "Angelica & Harley's Wedding",
+    description: "Join us for our wedding celebration on May 1, 2027",
     type: "website",
     locale: "en_US",
-    siteName: "Jane & John's Wedding",
+    siteName: "Angelica & Harley's Wedding",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jane & John's Wedding",
-    description: "Join us for our wedding celebration on June 15, 2027",
+    title: "Angelica & Harley's Wedding",
+    description: "Join us for our wedding celebration on May 1, 2027",
   },
 };
 
 export const viewport = {
   width: "device-width",
   initialScale: 1,
-  themeColor: "#8B7355",
+  themeColor: "#9B7EBD",
 };
 
 export default function RootLayout({

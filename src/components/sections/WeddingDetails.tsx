@@ -24,7 +24,7 @@ export default function WeddingDetails() {
 
       <div className="space-y-4 mb-6">
         <div className="flex items-start gap-3">
-          <Calendar className="w-5 h-5 text-purple mt-1 flex-shrink-0" />
+          <Calendar className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
           <div>
             <div className="font-medium text-text-primary">Date</div>
             <div className="text-text-secondary">
@@ -39,7 +39,7 @@ export default function WeddingDetails() {
         </div>
 
         <div className="flex items-start gap-3">
-          <Clock className="w-5 h-5 text-purple mt-1 flex-shrink-0" />
+          <Clock className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
           <div>
             <div className="font-medium text-text-primary">Time</div>
             <div className="text-text-secondary">{event.time}</div>
@@ -47,7 +47,7 @@ export default function WeddingDetails() {
         </div>
 
         <div className="flex items-start gap-3">
-          <MapPin className="w-5 h-5 text-purple mt-1 flex-shrink-0" />
+          <MapPin className="w-5 h-5 text-primary mt-1 flex-shrink-0" />
           <div>
             <div className="font-medium text-text-primary">Venue</div>
             <div className="text-text-secondary">{event.venueName}</div>

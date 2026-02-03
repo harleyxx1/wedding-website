@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary/20 via-purple/20 to-accent/20"
+      className="relative h-screen flex items-center justify-center bg-gradient-to-br from-primary/20 to-accent/20"
     >
       {/* Background overlay */}
       <div className="absolute inset-0 bg-black/30 z-0" />
@@ -41,8 +41,11 @@ export default function Hero() {
           <h1 className="font-script text-6xl md:text-8xl mb-6">
             {hero.bride} & {hero.groom}
           </h1>
-          <p className="text-xl md:text-2xl mb-8 font-light">
+          <p className="text-xl md:text-2xl mb-4 font-light">
             {hero.welcomeMessage}
+          </p>
+          <p className="text-lg md:text-xl mb-8 font-medium tracking-wider text-accent">
+            #HARLICASaPangHabangBuhay
           </p>
 
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">

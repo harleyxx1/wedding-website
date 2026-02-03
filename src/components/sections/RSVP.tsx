@@ -63,7 +63,7 @@ export default function RSVP() {
           <p className="text-text-secondary max-w-2xl mx-auto mb-4">
             Please let us know if you can join us for our special day
           </p>
-          <p className="text-purple font-medium">
+          <p className="text-primary font-medium">
             Kindly respond by{" "}
             {RSVP_DEADLINE.toLocaleDateString("en-US", {
               month: "long",
@@ -99,7 +99,7 @@ export default function RSVP() {
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
                 <Input
                   label="Full Name *"
-                  placeholder="John Doe"
+                  placeholder="Maria Santos"
                   error={errors.fullName?.message}
                   {...register("fullName")}
                 />
@@ -107,7 +107,7 @@ export default function RSVP() {
                 <Input
                   label="Email Address *"
                   type="email"
-                  placeholder="john@example.com"
+                  placeholder="maria@example.com"
                   error={errors.email?.message}
                   {...register("email")}
                 />
@@ -151,7 +151,7 @@ export default function RSVP() {
                     type="number"
                     min="1"
                     max="10"
-                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-purple"
+                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                     {...register("guestCount", { valueAsNumber: true })}
                   />
                   {errors.guestCount && (
@@ -174,7 +174,7 @@ export default function RSVP() {
                   <textarea
                     rows={3}
                     placeholder="Please let us know of any allergies or dietary restrictions"
-                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-purple"
+                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                     {...register("dietaryRestrictions")}
                   />
                 </div>
@@ -192,14 +192,13 @@ export default function RSVP() {
                   <textarea
                     rows={4}
                     placeholder="Share your well wishes..."
-                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-purple"
+                    className="w-full px-4 py-3 border border-border rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                     {...register("message")}
                   />
                 </div>
 
                 <Button
                   type="submit"
-                  variant="purple"
                   className="w-full"
                   disabled={isSubmitting}
                 >

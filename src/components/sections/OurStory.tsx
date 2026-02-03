@@ -38,12 +38,12 @@ export default function OurStory() {
                 className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} gap-6`}
               >
                 <div className="md:w-1/3">
-                  <div className="aspect-square bg-gradient-to-br from-primary/20 via-purple/20 to-accent/20 rounded-lg flex items-center justify-center">
+                  <div className="aspect-square bg-gradient-to-br from-primary/20 to-accent/20 rounded-lg flex items-center justify-center">
                     <span className="text-6xl">💑</span>
                   </div>
                 </div>
                 <div className="md:w-2/3 flex flex-col justify-center">
-                  <div className="text-purple font-medium mb-2">
+                  <div className="text-primary font-medium mb-2">
                     {milestone.date}
                   </div>
                   <h3 className="font-serif text-2xl text-primary mb-3">

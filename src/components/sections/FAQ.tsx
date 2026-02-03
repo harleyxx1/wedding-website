@@ -66,10 +66,10 @@ export default function FAQ() {
             <p className="text-text-primary">
               Feel free to reach out to us directly at{" "}
               <a
-                href="mailto:janeandjohn@wedding.com"
+                href="mailto:angelicaandharley@wedding.com"
                 className="text-accent hover:underline"
               >
-                janeandjohn@wedding.com
+                angelicaandharley@wedding.com
               </a>
             </p>
           </div>
